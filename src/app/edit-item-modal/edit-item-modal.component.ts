@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Inject } from '@angular/core';
 import { BudgetItem } from 'src/shared/models/budget-item.model';
-import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
+import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-edit-item-modal',

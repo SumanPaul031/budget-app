@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { BudgetItem } from 'src/shared/models/budget-item.model';
-import { MatDialog } from '@angular/material';
+import { MatDialog } from '@angular/material/dialog';
 import { EditItemModalComponent } from '../edit-item-modal/edit-item-modal.component';
 
 @Component({
